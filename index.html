@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO-friendly metadata and content -->
+    <title>Zipporah's Web Development Journey | PLP Week 1 Assignment</title>
+    <meta name="description" content="Discover Zipporah's journey in web development, her projects, and featured articles. PLP Week 1 assignment.">
+    <meta name="keywords" content="Zipporah, web development, PLP, projects, HTML, CSS, assignment">
+    <meta name="author" content="Zipporah">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Accessibility enhancement: Skip link for keyboard navigation -->
+    <a href="#main-content" class="skip-link" tabindex="0">Skip to main content</a>
+    
+    <!-- Semantic structure: header and nav -->
+    <header>
+        <!-- Clear heading hierarchy: h1 as main heading -->
+        <h1>Zipporah's Web Development Journey</h1>
+        <nav aria-label="Main Navigation">
+            <ul>
+                <!-- Accessibility: accesskey attributes for quick navigation -->
+                <li><a href="#about" accesskey="a">About Me</a></li>
+                <li><a href="#projects" accesskey="p">Projects</a></li>
+                <li><a href="#featured-article" accesskey="f">Featured Article</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Semantic structure: main element for main content -->
+    <main id="main-content">
+        <!-- Semantic structure: section, accessibility: aria-labelledby, tabindex -->
+        <section id="about" aria-labelledby="about-heading" tabindex="0">
+            <!-- Clear heading hierarchy: h2 for section -->
+            <h2 id="about-heading">About Me</h2>
+            <p>Hello! I'm Zipporah, an aspiring web developer passionate about creating accessible and user-friendly websites. This page showcases my journey and achievements as part of the PLP program.</p>
+        </section>
+
+        <!-- Semantic structure: section, accessibility: aria-labelledby, tabindex -->
+        <section id="projects" aria-labelledby="projects-heading" tabindex="0">
+            <!-- Clear heading hierarchy: h2 for section, h3 for sub-items -->
+            <h2 id="projects-heading">Projects</h2>
+            <ul>
+                <li>
+                    <h3>Personal Portfolio Website</h3>
+                    <p>A responsive portfolio to showcase my skills and projects using HTML and CSS.</p>
+                </li>
+                <li>
+                    <h3>Accessibility Demo Page</h3>
+                    <p>A sample page demonstrating best practices for web accessibility.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Semantic structure: article, accessibility: aria-labelledby, tabindex -->
+        <article id="featured-article" aria-labelledby="featured-article-heading" tabindex="0">
+            <!-- Clear heading hierarchy: h2 for article -->
+            <h2 id="featured-article-heading">Featured Article</h2>
+            <p>My journey in web development began with curiosity and a desire to solve real-world problems. Through the PLP program, I've learned the importance of semantic HTML, accessibility, and SEO. I look forward to building inclusive web experiences for everyone.</p>
+        </article>
+
+        <!-- Semantic structure: aside, accessibility: aria-label -->
+        <aside aria-label="Quick Links">
+            <!-- Clear heading hierarchy: h2 for aside -->
+            <h2>Quick Links</h2>
+            <ul>
+                <li><a href="#about">Learn more about me</a></li>
+                <li><a href="#projects">See my projects</a></li>
+                <li><a href="#featured-article">Read my featured article</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <!-- Semantic structure: footer -->
+    <footer>
+        <p>&copy; 2025 Zipporah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
